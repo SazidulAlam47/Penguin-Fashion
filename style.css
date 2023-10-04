@@ -1,3 +1,7 @@
 .font-bebas {
     font-family: 'Bebas Neue', sans-serif;
 }
+
+.features {
+    grid-template-columns: 1.5fr 2fr;
+}
