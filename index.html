@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin</title>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark:bg-gray-800 dark:text-white">
+
+    <header class="bg-[#FFFBF0]">
+        <!-- nav section -->
+        <nav class="flex justify-between px-5 md:px-20 lg:px-28 items-center py-5 ">
+            <div class="w-48 md:w-60 lg:w-72">
+                <img class="w-full" src="./icons/logo.png" alt="Penguin Fashion">
+            </div>
+            <div class="hidden md:block">
+                <ul class="flex gap-8 font-bold">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#"></a>Product</li>
+                    <li><a href="#"></a>About us</li>
+                    <li><a href="#"></a>Contact us</li>
+                </ul>
+            </div>
+            <div class="md:hidden">
+                <svg class="w-8" viewBox="0 0 100 80" width="40" height="40">
+                    <rect width="100" height="15"></rect>
+                    <rect y="30" width="100" height="15"></rect>
+                    <rect y="60" width="100" height="15"></rect>
+                </svg>
+            </div>
+        </nav>
+        <!-- banner section -->
+        <div class="grid grid-cols-2 items-center px-5 md:px-20 lg:px-28 py-10">
+            <div class="space-y-4 items-start">
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-medium uppercase font-bebas">
+                    <span class="text-[#FABE4C] block">Be the Penguins </span>
+                    <span class="text-[#363958] block">of winter</span>
+                </h1>
+                <p class="text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <button
+                    class="text-white px-4 py-2 rounded-md flex gap-2 items-center uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
+                    <img class="w-7" src="./icons/shopping-cart 1.png" alt="" />
+                    Buy now</button>
+            </div>
+            <div class="mt-5 md:mt-0 ">
+                <img class="mx-auto" src="./images/model.png" alt="model">
+            </div>
+        </div>
+    </header>
+
+
+</body>
+
+</html>
